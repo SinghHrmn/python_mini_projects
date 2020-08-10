@@ -10,6 +10,7 @@ textlines = ['a boy','is in love with the end thing']
 
 
 pdf = canvas.Canvas(filename)
+pdf.setTitle(documentTitle)
 pdf.save()
 
 
